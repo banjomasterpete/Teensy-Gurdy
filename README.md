@@ -3,7 +3,7 @@ Code and design files for building your own hurdy gurdy-inspired, Teensy-powered
 
 Howdy friends, here's the code I'm currently running in the Teensy Gurdy video with some added comments and the STL's for the case. 
 I didn't initially intend for others to be looking at this so some details are going to be hazy, 
-I highly suggest you watch the Notes and Volts Teensy synthesizer series as I learned how to build this project from watching my old pal Dave. 
+I highly suggest you watch the Notes and Volts Teensy synthesizer series as I learned how to build this project from watching my old pal Dave. The schematic is also the same as his TS-1 project with the addition of connecting the MPR121 to the Teensy I2C pins
 
 Here's a parts list for the project:
 
@@ -35,4 +35,5 @@ Here's a parts list for the project:
 
 Resources that I used:
 Notes and Volts: https://www.youtube.com/watch?v=UJcZxyB5rVc
+
 Adafruit: https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial
