@@ -1,6 +1,9 @@
 # Teensy-Gurdy
 Code and design files for building your own hurdy gurdy-inspired, Teensy-powered synthesizer!
 
+
+Update: I've been having a few problems off and on with the sensitivity of the touch plates. If yours isn't working correctly unless you touch a ground, this should help. Go into the .cpp file for the Adafruit MPR121 library and uncomment the line where it says 'uncomment here to use autoconfig.' 
+
 Howdy friends, here's the code I'm currently running in the Teensy Gurdy video with some added comments and the STL's for the case. 
 I didn't initially intend for others to be looking at this so some details are going to be hazy, 
 I highly suggest you watch the Notes and Volts Teensy synthesizer series as I learned how to build this project from watching my old pal Dave. The schematic is also the same as his TS-1 project with the addition of connecting the MPR121 to the Teensy I2C pins
